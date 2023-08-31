@@ -22,7 +22,10 @@
 }
 
 .protfolio_item h3{
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 0;
+}
+.protfolio_item h5{
+    margin: 0 0 1rem;
 }
 
 .portfolio_item-cta{

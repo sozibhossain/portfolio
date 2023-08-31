@@ -15,8 +15,7 @@ const data = [
         "id": 1,
         "name": "BIMTECH",
         "picture": portfolio9,
-        "details": "Admin and user will see the different features. Users can order products, Cancel orders, order history, order reviews with dynamic ratings of the product. Only admin can add products, manage products, delete products, new admin",
-        "Technologies": "React js, MongoDB, Node js, Node Express, Firebase, Authentication,   Material UI, CSS, Heroku, JWT",
+        "Technologies": "HTML, CSS framework Bootstrap.",
         "LiveLink": "https://creative-syrniki-99fe1b.netlify.app/",
         "ClientLink": "https://github.com/sozibhossain/BIMTECH"
     },
@@ -25,7 +24,7 @@ const data = [
         "name": "SKOLA",
         "picture": portfolio1,
         "details": "Admin and user will see the different features. Users can order products, Cancel orders, order history, order reviews with dynamic ratings of the product. Only admin can add products, manage products, delete products, new admin",
-        "Technologies": "React js, MongoDB, Node js, Node Express, Firebase, Authentication,   Material UI, CSS, Heroku, JWT",
+        "Technologies": "React js, MongoDB, Node js, Express JS, Firebase, Authentication,   Material UI, CSS, Heroku, JWT",
         "LiveLink": "https://naughty-johnson-102b1c.netlify.app/",
         "ClientLink": "https://github.com/sozibhossain/team-projects-programming-hero",
         "ServerLink": "https://github.com/sozibhossain/team-projects-programming-hero/tree/client-side/backend"
@@ -35,7 +34,7 @@ const data = [
         "name": "YA-MART",
         "picture": portfolio2,
         "details": "Admin and user will see the different features. Users can order products, Cancel orders, order history, order reviews with dynamic ratings of the product. Only admin can add products, manage products, delete products, new admin",
-        "Technologies": "React js, MongoDB, Node js, Node Express, Firebase, Authentication, Tailwind, CSS, Heroku, JWT",
+        "Technologies": "React js,Tailwind CSS.",
         "LiveLink": "https://lucky-kringle-fd19a0.netlify.app/",
         "ClientLink": "https://github.com/sozibhossain/ya-mart",
         "ServerLink": ""
@@ -45,7 +44,7 @@ const data = [
         "name": "AutoCar",
         "picture": portfolio3,
         "details": "Admin and user will see the different features. Users can order products, Cancel orders, order history, order reviews with dynamic ratings of the product. Only admin can add products, manage products, delete products, new admin",
-        "Technologies": "React js, MongoDB, Node js, Node Express, Firebase, Authentication,   Material UI, CSS, Heroku, JWT",
+        "Technologies": "React js, Node js, Express JS, Firebase Authentication, MongoDB, Material UI, CSS, Heroku, JWT",
         "LiveLink": "https://autocar-ab3c5.web.app/",
         "ClientLink": "https://github.com/sozibhossain/Assignment-12",
         "ServerLink": "https://github.com/sozibhossain/Assignment-12-server"
@@ -55,7 +54,7 @@ const data = [
         "name": "Atrii World",
         "picture": portfolio4,
         "details": "Users and admin can log in with registered email or product details with the private route in login. Responsive web application with dynamic products and users review section. Used firebase authentication system for login, register, and Google sign-in.",
-        "Technologies": "React js, MongoDB, Node js, Node Express, Firebase Authentication, React Bootstrap, CSS, Heroku, JWT.",
+        "Technologies": "React js, Node js, Express JS, Firebase Authentication, MongoDB, React Bootstrap, CSS, Heroku, JWT.",
         "url": "https://atrii-world.web.app/",
         "ClientLink": "https://github.com/sozibhossain/Assignment-11",
         "ServerLink": "https://github.com/sozibhossain/Assignment-11-server"
@@ -65,7 +64,7 @@ const data = [
         "name": "Medicine Shop",
         "picture": portfolio5,
         "details": "Admin and user will see the different features. Users can order products, Cancel orders, order history, order reviews with dynamic ratings of the product. Only admin can add products, manage products, delete products, new admin",
-        "Technologies": "React js, MongoDB, Node js, Node Express, Firebase Authentication, React Bootstrap, CSS.",
+        "Technologies": "React js, Node js, Express JS, Firebase Authentication, MongoDB, React Bootstrap, CSS.",
         "LiveLink": "https://medicine-shop-2dc4e.web.app/",
         "ClientLink": "https://github.com/sozibhossain/Assignment-10",
         "ServerLink": "---"
@@ -85,7 +84,7 @@ const data = [
         "name": "Rajasthan",
         "picture": portfolio7,
         "details": "Users and admin can log in with registered email or product details with the private route in login. Responsive web application with dynamic products and users review section. Used firebase authentication system for login, register, and Google sign-in.",
-        "Technologies": "React js, MongoDB, Node js, Node Express, Firebase Authentication, Tailwind, CSS.",
+        "Technologies": "React js, Tailwind CSS,",
         "LiveLink": "https://superb-swan-66e99c.netlify.app/",
         "ClientLink": "https://github.com/sozibhossain/govt-rajsthan",
         "ServerLink": "---"
@@ -95,7 +94,7 @@ const data = [
         "name": "TuteDude",
         "picture": portfolio8,
         "details": "Users and admin can log in with registered email or product details with the private route in login. Responsive web application with dynamic products and users review section. Used firebase authentication system for login, register, and Google sign-in.",
-        "Technologies": "React js, MongoDB, Node js, Node Express, Firebase Authentication, React Bootstrap, CSS.",
+        "Technologies": "React js, CSS.",
         "LiveLink": "https://fancy-hummingbird-d12250.netlify.app/",
         "ClientLink": "https://github.com/sozibhossain/tute-dude",
         "ServerLink": "---"
@@ -105,7 +104,7 @@ const data = [
         "name": "Creative-zone",
         "picture": portfolio9,
         "details": "Users and admin can log in with registered email or product details with the private route in login. Responsive web application with dynamic products and users review section. Used firebase authentication system for login, register, and Google sign-in.",
-        "Technologies": "React js, MongoDB, Node js, Node Express, Firebase Authentication, React Bootstrap, CSS.",
+        "Technologies": "React js, React Bootstrap, CSS.",
         "LiveLink": "https://comforting-kelpie-8fce87.netlify.app/",
         "ClientLink": "https://github.com/sozibhossain/Creative-zone",
         "ServerLink": "---"
@@ -120,13 +119,14 @@ const Portfolio = () => {
 
       <div className="container portfolio_container">
         {
-            data.map(({id, name, picture, LiveLink, ClientLink}) => {
+            data.map(({id, name, Technologies, picture, LiveLink, ClientLink}) => {
                 return (
                     <article key={id} className="protfolio_item">
                         <div className="portfolio_item-image">
                             <img src={picture} alt=''/>
                         </div>
                         <h3>{name}</h3>
+                        <h5>{Technologies}</h5>
                         <div className="portfolio_item-cta">
                             <a href={ClientLink} className='btn' target='_blank'>GitHub</a>
                             <a href={LiveLink} className='btn btn-primary' target='_blank'>Live Demo</a>
