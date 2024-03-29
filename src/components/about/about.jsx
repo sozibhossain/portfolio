@@ -37,7 +37,7 @@ const About = () => {
             </article>
           </div>
 
-          <p>I am a Junior MERN Stack Developer. I am working, as a Web Mentor at ‍<a target='_blank' href="https://coderstrustbd.com/">CodersTrust Bangladesh</a> CodersTrust Bangladesh, and I am working on Data Structure Algorithm problem-solving <a target='_blank' href="https://leetcode.com/sozibhossain/">LeetCode</a> along with the job. I have completed 6 projects on <a target='_blank' href="https://www.fiverr.com/sozib3862">Fiverr</a> marketplaces 4 outside of marketplaces, and 27 small projects personally.</p>
+          <p>I am a Junior MERN Stack Developer. I am working, as a Web Mentor at ‍<a target='_blank' href="https://coderstrustbd.com/">CodersTrust Bangladesh</a> and I am working on Data Structure Algorithm problem-solving <a target='_blank' href="https://leetcode.com/sozibhossain/">LeetCode</a> along with the job. I have completed 6 projects on <a target='_blank' href="https://www.fiverr.com/sozib3862">Fiverr</a> marketplaces 4 outside of marketplaces, and 27 small projects personally.</p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
