@@ -16,11 +16,7 @@ const Services = () => {
           <ul className='service_list'>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>HTML, CSS</p>
-            </li>
-            <li>
-              <BiCheck className='service_list-icon'/>
-              <p>JavaScript, React JS, Next JS</p>
+              <p>JavaScript, React JS, Next JS, Socket.io, React Native</p>
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
@@ -28,11 +24,11 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>API Integration</p>
+              <p>API Integration, TanStack Query</p>
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>CSS Framework: Taillwind, MaterialUI, Bootstrap</p>
+              <p>CSS Framework: Taillwind, MaterialUI, Bootstrap, modern UI libraries such as ShadCN</p>
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
@@ -46,13 +42,9 @@ const Services = () => {
             <h3>Fullstack Development</h3>
           </div>
           <ul className='service_list'>
-          <li>
-              <BiCheck className='service_list-icon'/>
-              <p>HTML, CSS</p>
-            </li>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>JavaScript, React JS, Next JS</p>
+              <p>JavaScript, React JS, Next JS, TypeScript, Redux, Socket.io, React Native</p>
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
@@ -60,7 +52,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>API Integration</p>
+              <p>API Integration, TanStack Query</p>
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
@@ -72,7 +64,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service_list-icon'/>
-              <p>CSS Framework: Taillwind, MaterialUI, Bootstrap</p>
+              <p>CSS Framework: Taillwind, MaterialUI, Bootstrap, modern UI libraries such as ShadCN</p>
             </li>
             <li>
               <BiCheck className='service_list-icon'/>

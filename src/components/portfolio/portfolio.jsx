@@ -13,60 +13,51 @@ import './portfolio.css';
 const data = [
     {
         "id": 1,
-        "name": "BIMTECH",
+        "name": "tablefresh",
         "picture": portfolio9,
-        "Technologies": "HTML, CSS framework Bootstrap.",
-        "LiveLink": "https://creative-syrniki-99fe1b.netlify.app/",
-        "ClientLink": "https://github.com/sozibhossain/BIMTECH"
+        "Technologies": "MENN Stack, Node JS, Express JS, MongoDB, Next JS, Socket io, Stripe, TanStack Query, ShadCN UI and Tailwind CSS.",
+        "LiveLink": "https://test.evpitch.com/",
+        "ClientLink": ""
     },
-    {
+      {
         "id": 2,
-        "name": "SKOLA",
-        "picture": portfolio1,
-        "details": "Admin and user will see the different features. Users can order products, Cancel orders, order history, order reviews with dynamic ratings of the product. Only admin can add products, manage products, delete products, new admin",
-        "Technologies": "React js, MongoDB, Node js, Express JS, Firebase, Authentication,   Material UI, CSS, Heroku, JWT",
-        "LiveLink": "https://naughty-johnson-102b1c.netlify.app/",
-        "ClientLink": "https://github.com/sozibhossain/team-projects-programming-hero",
-        "ServerLink": "https://github.com/sozibhossain/team-projects-programming-hero/tree/client-side/backend"
+        "name": "tablefresh",
+        "picture": portfolio9,
+        "Technologies": "MENN Stack, Node JS, Express JS, MongoDB, Next JS, Socket io, Stripe, TanStack Query, ShadCN UI and Tailwind CSS.",
+        "LiveLink": "https://www.tablefresh.org/",
+        "ClientLink": "https://github.com/sozibhossain/gmain-frontend"
     },
     {
         "id": 3,
-        "name": "YA-MART",
+        "name": "WalkThroughz",
         "picture": portfolio2,
-        "details": "Admin and user will see the different features. Users can order products, Cancel orders, order history, order reviews with dynamic ratings of the product. Only admin can add products, manage products, delete products, new admin",
-        "Technologies": "React js,Tailwind CSS.",
-        "LiveLink": "https://lucky-kringle-fd19a0.netlify.app/",
-        "ClientLink": "https://github.com/sozibhossain/ya-mart",
-        "ServerLink": ""
+        "Technologies": "MENN Stack, Node JS, Express JS, MongoDB, Next JS, Socket io, Stripe, TanStack Query, ShadCN UI and Tailwind CSS.",
+        "LiveLink": "https://walkthroughz.com/",
+        "ClientLink": "https://github.com/sozibhossain/n_Krypted-frontend/tree/maint",
     },
     {
         "id": 4,
-        "name": "AutoCar",
+        "name": "Diamondauctionsllc",
         "picture": portfolio3,
-        "details": "Admin and user will see the different features. Users can order products, Cancel orders, order history, order reviews with dynamic ratings of the product. Only admin can add products, manage products, delete products, new admin",
-        "Technologies": "React js, Node js, Express JS, Firebase Authentication, MongoDB, Material UI, CSS, Heroku, JWT",
-        "LiveLink": "https://autocar-ab3c5.web.app/",
-        "ClientLink": "https://github.com/sozibhossain/Assignment-12",
-        "ServerLink": "https://github.com/sozibhossain/Assignment-12-server"
+        "Technologies": "MENN Stack, Node JS, Express JS, MongoDB, Next JS, Socket io, Stripe, TanStack Query, ShadCN UI and Tailwind CSS.",
+        "LiveLink": "https://diamondauctionsllc.com/",
+        "ClientLink": "",
     },
     {
         "id": 5,
-        "name": "Atrii World",
+        "name": "goalsapp",
         "picture": portfolio4,
-        "details": "Users and admin can log in with registered email or product details with the private route in login. Responsive web application with dynamic products and users review section. Used firebase authentication system for login, register, and Google sign-in.",
-        "Technologies": "React js, Node js, Express JS, Firebase Authentication, MongoDB, React Bootstrap, CSS, Heroku, JWT.",
-        "url": "https://atrii-world.web.app/",
-        "ClientLink": "https://github.com/sozibhossain/Assignment-11",
-        "ServerLink": "https://github.com/sozibhossain/Assignment-11-server"
+        "Technologies": "Next JS, TanStack Query, Tailwind CSS.",
+        "url": "https://goalsapp.store/",
+        "ClientLink": "https://github.com/sozibhossain/Goals/tree/main",
     },
     {
         "id": 6,
-        "name": "Medicine Shop",
+        "name": "Splurjj",
         "picture": portfolio5,
-        "details": "Admin and user will see the different features. Users can order products, Cancel orders, order history, order reviews with dynamic ratings of the product. Only admin can add products, manage products, delete products, new admin",
-        "Technologies": "React js, Node js, Express JS, Firebase Authentication, MongoDB, React Bootstrap, CSS.",
-        "LiveLink": "https://medicine-shop-2dc4e.web.app/",
-        "ClientLink": "https://github.com/sozibhossain/Assignment-10",
+        "Technologies": "Next JS, TanStack Query, Tailwind CSS.",
+        "LiveLink": "https://splurjj.com/",
+        "ClientLink": "",
         "ServerLink": "---"
     },
     {

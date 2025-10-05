@@ -1,69 +1,199 @@
-footer{
-    background: #2489d1;
-    padding: 3rem 0;
-    text-align: center;
-    font-size: 0.9rem;
-    margin-top: 7rem;
+footer {
+  background: #2489d1;
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 7rem;
+  color: var(--color-white);
 }
 
-footer a{
-    color: var(--color-bg);
-
+/* Links */
+footer a {
+  color: var(--color-bg);
+  transition: color 0.3s ease;
 }
 
-.footer_logo{
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
-    display: inline-block;
+footer a:hover {
+  color: var(--color-white);
 }
 
-.permalinks{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    margin: 0 auto 3rem;
+/* Logo */
+.footer_logo {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  display: inline-block;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
-.footer_socials{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 4rem;
+/* Permalinks */
+.permalinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto 3rem;
 }
 
-.footer_socials a{
-    background: var(--color-bg);
-    color: var(--color-white);
-    padding: 0.8rem;
-    border-radius: 0.7rem;
-    display: flex;
-    border: 1px solid transparent;
+.permalinks a {
+  font-weight: 500;
+  transition: all 0.3s ease;
 }
 
-.footer_socials a:hover{
-    background: transparent;
-    color: var(--color-bg);
-    border-color: var(--color-bg);
+.permalinks a:hover {
+  color: var(--color-white);
+  text-decoration: underline;
 }
 
-.footer_copyright{
-    margin-bottom: 4rem;
-    color: var(--color-bg);
+/* Socials */
+.footer_socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
 }
 
+.footer_socials a {
+  background: var(--color-bg);
+  color: var(--color-white);
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  display: flex;
+  font-size: 1.2rem;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
 
+.footer_socials a:hover {
+  background: transparent;
+  color: var(--color-bg);
+  border-color: var(--color-bg);
+  transform: translateY(-4px);
+}
+
+/* Dual icon hover (Coderstrust & BDCalling) */
+/* Dual Icon Wrapper */
+.dual-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+}
+
+/* Default Icon */
+.dual-wrapper .default-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Dual Icons (Hidden by Default) */
+.dual-wrapper {
+  background: var(--color-bg);
+  color: var(--color-white);
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.dual-wrapper:hover {
+  background: transparent;
+  color: var(--color-bg);
+  border: 1px solid var(--color-bg);
+  transform: translateY(-2px);
+}
+.dual-wrapper .dual-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  gap: 0.5rem;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+/* On Hover → Show Dual Links and Hide Default Icon */
+.dual-wrapper:hover .default-icon {
+  opacity: 0;
+  transform: scale(0.5);
+}
+
+.dual-wrapper:hover .dual-icons {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* Style for the dual links */
+.dual-wrapper .dual-icons a {
+  background: var(--color-bg);
+  color: var(--color-white);
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.dual-wrapper .dual-icons a:hover {
+  background: transparent;
+  color: var(--color-bg);
+  border: 1px solid var(--color-bg);
+  transform: translateY(-2px);
+}
+
+.icon-link {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  width: 42px;
+  height: 42px;
+}
+
+.icon-link .hover-icon {
+  position: absolute;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.3s ease;
+}
+
+.icon-link .default-icon {
+  transition: all 0.3s ease;
+}
+
+.icon-link:hover .default-icon {
+  opacity: 0;
+  transform: scale(0.5);
+}
+
+.icon-link:hover .hover-icon {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Copyright */
+.footer_copyright {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: var(--color-bg);
+}
 
 /* ==================== MEDIA QUERIES (SMALL DEVICES) ====================*/
-  
 @media screen and (max-width: 600px) {
-    .permalinks{
-        flex-direction: column;
-        gap: 1.5rem;
-    }
+  .permalinks {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 
-    .footer_socials{
-        margin-bottom: 2.6rem;
-    }
+  .footer_socials {
+    margin-bottom: 2.6rem;
+  }
 }
